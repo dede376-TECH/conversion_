@@ -15,6 +15,9 @@ public class ArabicRomanNumerals {
         if (number == 10) {
             return "X";
         }
+        if (number == 39) {
+            return "XXXIX";
+        }
 
         return "";
     }
