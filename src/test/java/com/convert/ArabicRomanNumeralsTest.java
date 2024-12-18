@@ -28,5 +28,17 @@ public class ArabicRomanNumeralsTest {
 
 
     }
+    @Test
+    public void convertir_4(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 4;
+        // when
+        String res = cn.convert(number);
+        //then
+        assertEquals("IV", res);
+
+
+    }
 
 }
