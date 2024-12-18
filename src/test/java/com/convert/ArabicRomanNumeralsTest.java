@@ -65,4 +65,25 @@ public class ArabicRomanNumeralsTest {
 
     }
 
+    @Test
+    public void convertir_6(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 6;
+        // when
+        String res = cn.convert(number);
+        // then
+        assertEquals("VI", res);
+    }
+    @Test
+    public void convertir_50(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 50;
+        // when
+        String res = cn.convert(number);
+        // then
+        assertEquals("L", res);
+    }
 }
+
