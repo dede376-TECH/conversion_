@@ -52,5 +52,17 @@ public class ArabicRomanNumeralsTest {
 
 
     }
+    @Test
+    public void convertir_39(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 39;
+        // when
+        String res = cn.convert(number);
+        //then
+        assertEquals("XXXIX", res);
+
+
+    }
 
 }
