@@ -12,6 +12,9 @@ public class ArabicRomanNumerals {
         if (number == 4) {
             return "IV";
         }
+        if (number == 10) {
+            return "X";
+        }
 
         return "";
     }
