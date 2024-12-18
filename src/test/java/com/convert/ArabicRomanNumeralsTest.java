@@ -40,5 +40,17 @@ public class ArabicRomanNumeralsTest {
 
 
     }
+    @Test
+    public void convertir_10(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 10;
+        // when
+        String res = cn.convert(number);
+        //then
+        assertEquals("X", res);
+
+
+    }
 
 }
