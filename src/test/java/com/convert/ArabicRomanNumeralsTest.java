@@ -16,4 +16,17 @@ public class ArabicRomanNumeralsTest {
 
 
     }
+    @Test
+    public void convertir_3(){
+        // given
+        ArabicRomanNumerals cn = new ArabicRomanNumerals();
+        int number = 3;
+        // when
+        String res = cn.convert(number);
+        //then
+        assertEquals("III", res);
+
+
+    }
+
 }
